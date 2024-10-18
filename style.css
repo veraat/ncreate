@@ -59,7 +59,7 @@ a {
 .center-text {
     display: flex;
     flex-direction: column;
-    padding-top: 15%;
+    padding-top: 10%;
 }
 
 .center-text h2 {
