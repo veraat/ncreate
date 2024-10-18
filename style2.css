@@ -1,0 +1,46 @@
+.styled-input {
+    background-color: #1c1f26;
+    border: 3px solid white;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #fff;
+    outline: none;
+    transition: border-color 0.3s ease;
+    width: 100%;
+    font-size: 22px;
+}
+
+.styled-input::placeholder {
+    color: #bbb;
+}
+
+.styled-input:focus {
+    border-color: #00eeff;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.styled-button {
+    padding: 10px 20px;
+    background-color: #00EEFF;
+    border: none;
+    border-radius: 9px;
+    color: #000;
+    font-size: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#footer {
+    color: #000;
+}
+
+.styled-button:hover {
+    background-color: #00aacc;
+    /* Darker shade on hover */
+}
